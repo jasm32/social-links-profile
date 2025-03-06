@@ -1,0 +1,137 @@
+/* this file is the code for the styles used in index.html */
+
+/* Base styles and font import */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* Page background */
+  .page-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #151515;
+  }
+  
+  /* Profile card container */
+  .profile-card {
+    display: flex;
+    width: 343px;
+    padding: 25px 20px 20px 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #1F1F1F;
+  }
+  
+  /* User information section */
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile avatar */
+  .avatar {
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    margin-bottom: 21px;
+    object-fit: cover;
+  }
+  
+  /* Username styling */
+  .username {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 9px;
+  }
+  
+  /* Location styling */
+  .location {
+    color: #72b900;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 9px;
+  }
+  
+  /* Headline/bio styling */
+  .headline {
+    color: #dadada;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 259px;
+    text-align: center;
+  }
+  
+  /* Social links container */
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  /* Social button styling */
+  .social-button {
+    width: 100%;
+    padding: 9px;
+    border-radius: 8px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+      background-color 0.2s,
+      color 0.2s;
+    background-color: #737373;
+    border: none;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* Hover effect for social buttons */
+  .social-button:hover {
+    background-color: #c5f82a;
+    color: #000;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 991px) {
+    .profile-card {
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .profile-card {
+      width: 100%;
+      max-width: 343px;
+      padding: 20px 15px;
+    }
+  
+    .avatar {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .username {
+      font-size: 20px;
+    }
+  
+    .headline {
+      font-size: 13px;
+    }
+  }
+  
