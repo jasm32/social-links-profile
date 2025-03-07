@@ -17,9 +17,11 @@ This repository contains the code for the Social Links Profile Challenge from Fr
 # Overview
 
 ## Screenshot of qr-code-component
-Desktop = ./design/desktop-active-button-solution.png
-          ./design/desktop-solution-screenshot.jpg
-Mobile = ./design/mobile-solution-screenshot.jpg
+### Desktop  
+- ./design/desktop-active-button-solution.png
+- ./design/desktop-solution-screenshot.jpg
+### Mobile  
+-./design/mobile-solution-screenshot.jpg
 
 ## Links to Live webpage
 https://social-links-profile-zeta-virid.vercel.app/
@@ -53,5 +55,5 @@ https://social-links-profile-zeta-virid.vercel.app/
 - Figma for Beginners (Figma Learn) - https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-Beginners-4-parts 
 
 # Author
-Name: Jose Arturo Soraiz-Muniz
-Frontend Mentor: @jasm32
+- Name: Jose Arturo Soraiz-Muniz
+- Frontend Mentor: @jasm32
