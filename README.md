@@ -21,7 +21,7 @@ This repository contains the code for the Social Links Profile Challenge from Fr
 - ./design/desktop-active-button-solution.png
 - ./design/desktop-solution-screenshot.jpg
 ### Mobile  
--./design/mobile-solution-screenshot.jpg
+- ./design/mobile-solution-screenshot.jpg
 
 ## Links to Live webpage
 https://social-links-profile-zeta-virid.vercel.app/
